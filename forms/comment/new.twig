@@ -8,7 +8,7 @@
     </p>
     {% else %}
     <p>
-        <label for="author">${ "Your Name" | translate }</label>
+        <label for="author">${ "Your Handle" | translate }</label>
         <input type="text" name="author" value="" id="author" />
     </p>
     <p>
@@ -31,6 +31,6 @@
         <input type="hidden" name="url" value="$visitor.website" id="url" />
         {% endif %}
         <input type="hidden" name="post_id" value="$post.id" id="post_id" />
-        <button type="submit">${ "Speak" | translate }</button>
+        <button type="submit">${ "Post" | translate }</button>
     </p>
 </form>

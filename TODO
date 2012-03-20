@@ -1,5 +1,5 @@
-A couple of things on my mind for tomorrow:
-> Finish tweaking blog stylesheet colors
-> Make Home link to oddshocks.com, and make Blog link to /blog.
-	> In nav, Home should never be hilighted when in /blog
-	> When at oddshocks.com/blog, Blog will be hilighted in the nav
+TODO
+====
+
+- Finish tweaking blog stylesheet colors
+- Fix admin theme colors to make them readable (and pretty)

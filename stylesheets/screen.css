@@ -112,7 +112,7 @@ blockquote {
 	margin-left: 0;
 	margin-bottom: 3em;
 	background-color: #030303;
-	color: #000;
+	color: #EEEEEE;
 	padding: 1px 20px 10px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -143,8 +143,8 @@ blockquote {
 form.inline_edit {
 	clear: both;
 	margin: 4.5em 0;
-	background-color: #DDDDDD;
-	color: #000;
+	background-color: #BBBBBB;
+	color: #EEEEEE;
 	padding: 20px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -158,13 +158,22 @@ form.inline_edit {
 	float: left;
 	clear: both;
 	width: 140px;
-	margin-right: 20px;
+	margin-right: 5px;
+	margin-left: 40px;
 	}
 .inline_edit .buttons {
 	display: block;
 	text-align: right;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	margin-top: -20px;
 	}
-
+.more_options_link
+{
+	float: left;
+	margin-right: 5px;
+	margin-left: 40px;
+}
 #nav {
 	float: right;
 	list-style: none;
@@ -184,7 +193,7 @@ form.inline_edit {
 	color: #FFFFFF;
 	}
 #nav li.selected a {
-	background-color: #000000;
+	background-color: #4D4D4D;
 	color: #FFFFFF;
 	}
 
@@ -268,8 +277,8 @@ form.inline_edit {
 .notice {
 	text-align: center;
 	margin: 1.5em 0;
-	background-color: #DDD;
-	color: #000;
+	background-color: #DDDDDD;
+	color: #000000;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;

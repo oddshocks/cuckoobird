@@ -36,13 +36,14 @@ ${ trigger.call("head") }
         {% endif %}
         {% if site.name %}
         <div id="header">
-        	<ul id="nav">
-        		<li${ route.action | selected("index") }><a href="$site.url">Home</a></li>
-						{% for item in theme.pages_list %}
-						<li${ page.id | selected(item.page.id) }><a href="$item.page.url">$item.page.title</a></li>
-						{% endfor %}
-						<li${ route.action | selected("archive") }><a href="{% url "archive" %}">Archive</a></li>
-        	</ul>
+		<ul id="nav">
+			<li><a href="http://oddshocks.com/">Home</a></li>
+        		<li${ route.action | selected("index") }><a href="$site.url">Blog</a></li>
+			{% for item in theme.pages_list %}
+			<li${ page.id | selected(item.page.id) }><a href="$item.page.url">$item.page.title</a></li>
+			{% endfor %}
+			<li${ route.action | selected("archive") }><a href="{% url "archive" %}">Archive</a></li>
+		</ul>
           <div class="header_box">
 	          <h1><a href="$site.url">$site.name</a></h1>
 	          {% if site.description %}
