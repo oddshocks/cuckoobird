@@ -287,3 +287,10 @@ form.inline_edit {
 .right { float: right; }
 
 .clear { clear: both; }
+
+.sub /* Controls "(click to hide)" link in notices */
+{
+	padding-left: 8px;
+	color: #AAAAAA;
+	background: none;
+}
