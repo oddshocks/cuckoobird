@@ -1,5 +1,25 @@
-* { background: #fff; }
-body { font-family: georgia, times, serif; color: black; }
-blockquote { font-style: italic; color: black; }
-a:link, a:visited { border-bottom-width: 1px; border-bottom-style: solid; }
-#sidebar { display: none; }
+/*
+ * Print CSS for Cuckoobird Chyrp theme, based on Mockingbird theme
+ * Author: David Gay
+ */
+*
+{
+	background: #fff;
+}
+body
+{
+	font-family: georgia, times, serif; color: black;
+}
+blockquote
+{
+	font-style: italic; color: black;
+}
+a:link, a:visited
+{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+#sidebar
+{
+	display: none;
+}
