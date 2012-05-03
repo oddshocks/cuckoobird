@@ -5,6 +5,10 @@
    Modified by David Gay for Cuckoobird theme
 */
 
+/*
+ * TODO: Update screen.css to match any changes to this
+ */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -48,6 +52,7 @@ body
 code
 {
 	font-family: "courier", "serif";
+    font-size: 0.8em;
 }
 blockquote, q
 {
@@ -66,7 +71,7 @@ table
 }
 body
 {
-	font-family: Georgia, serif;
+	font-family: Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5em;
 	color: #EEE;
@@ -105,13 +110,19 @@ a
 	color: #003FD1;
 	text-decoration: none;
 }
+a:hover
+{
+    text-shadow: #007BFF 0 0 10px;
+	filter: glow(color=#007BFF, strength=3); /* For IE 8 and below */	
+    color: #FFFFFF;
+}
 p a
 {
 	text-decoration: underline;
 }
 h1, h2, h3, h4, h5, h6
 {
-	font-family: sans-serif;
+	font-family: Tahoma, Verdana, sans-serif;
 	font-weight: bold;
 	color: #EEEEEE;
 }
@@ -243,8 +254,9 @@ form.inline_edit
 }
 #nav li.selected a
 {
-	background-color: #4D4D4D;
-	color: #FFFFFF;
+	text-shadow: #007BFF 0 0 10px;
+    filter: glow(color=#007BFF, strength=3); /* For IE 8 and below */
+    color: #FFFFFF;
 }
 #header .header_box
 {
