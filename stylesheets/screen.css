@@ -233,11 +233,13 @@ form.inline_edit
 }
 #nav li
 {
+    margin-top: 75px;
 	float: left;
+    font-size: 10px;
 }
 #nav a
 {
-	display: block;
+	display: inline;
 	padding: 5px 10px 5px 10px;
     color: #FFF;
     background: #000;
