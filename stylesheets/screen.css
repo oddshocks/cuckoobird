@@ -29,7 +29,7 @@ time, mark, audio, video
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	background: #030303;
+	background: #FFF;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -74,7 +74,7 @@ body
 	font-family: Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5em;
-	color: #EEE;
+	color: #000;
 }
 #header, #wrapper, #controls ul
 {
@@ -90,7 +90,7 @@ body
 }
 #controls
 {
-	background: #030303;
+	background: #FFF;
 	-webkit-box-shadow: inset 0 -2px 3px rgba(0,0,0,.1);
 	-moz-box-shadow: inset 0 -2px 3px rgba(0,0,0,.1);
 	box-shadow: inset 0 -2px 3px rgba(0,0,0,.1);
@@ -112,19 +112,13 @@ a
 }
 a:hover
 {
-    text-shadow: #007BFF 0 0 10px;
-	filter: glow(color=#007BFF, strength=3); /* For IE 8 and below */	
-    color: #FFFFFF;
-}
-p a
-{
-	text-decoration: underline;
+    text-decoration: underline;
 }
 h1, h2, h3, h4, h5, h6
 {
 	font-family: Tahoma, Verdana, sans-serif;
 	font-weight: bold;
-	color: #EEEEEE;
+	color: #000;
 }
 h1, h2, h3
 {
@@ -144,7 +138,7 @@ blockquote
 }
 .date
 {
-	color: #AAAAAA;
+	color: #666;
 	float: left;
 	clear: both;
 	width: 160px;
@@ -173,7 +167,7 @@ blockquote
 {
 	font-family: sans-serif;
 	text-align: right;
-	color: #CCCCCC;
+	color: #666;
 }
 .info a
 {
@@ -244,19 +238,19 @@ form.inline_edit
 #nav a
 {
 	display: block;
-	padding: 4.5em 10px 10px 10px;
+	padding: 5px 10px 5px 10px;
+    color: #FFF;
+    background: #000;
+    text-decoration: none;
+    margin: 4px;
 }
 #nav a:hover
 {
-	text-shadow: #007BFF 0 0 10px;
-	filter: glow(color=#007BFF, strength=3); /* For IE 8 and below */	
-	color: #FFFFFF;
+    /* Zippo. */
 }
 #nav li.selected a
 {
-	text-shadow: #007BFF 0 0 10px;
-    filter: glow(color=#007BFF, strength=3); /* For IE 8 and below */
-    color: #FFFFFF;
+    color: #003FD1;
 }
 #header .header_box
 {
@@ -267,13 +261,13 @@ form.inline_edit
 	font-size: 1.5em;
 	line-height: 1em;
 	margin: 0;
-	color: #EEEEEE;
+	color: #666;
 }
 #header h2
 {
 	font-size: 1em;
 	margin: .75em 0;
-	color: #EEEEEE;
+	color: #000;
 }
 #content
 {
@@ -284,8 +278,7 @@ form.inline_edit
 	font-family: sans-serif;
 	line-height: 2.5em;
 	margin: 4.5em 0 3em;
-	background-color: #030303;
-	color: #444444;
+	color: #000;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
@@ -321,8 +314,6 @@ form.inline_edit
 }
 .pages a:hover
 {
-	text-shadow: #007BFF 0 0 10px;
-	filter: glow(color=#007BFF, strength=3); /* For IE 8 and below */	
 	color: #FFFFFF;
 }
 .pages span
@@ -336,7 +327,7 @@ form.inline_edit
 	font-family: sans-serif;
 	line-height: 2.5em;
 	text-align: center;
-	color: #AAAAAA;
+	color: #666;
 	margin: 3em 0;
 	font-size: .6em;
 }
@@ -369,6 +360,6 @@ form.inline_edit
 .sub /* Controls "(click to hide)" link in notices */
 {
 	padding-left: 8px;
-	color: #AAAAAA;
+	color: #666;
 	background: none;
 }
